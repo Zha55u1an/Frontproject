@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QazTech</title>
+</head>
+<body>
+    <style>
+        h1{
+            position: relative;
+            text-align: center;
+            font-family:sans-serif;
+        }.menu{
+            
+            font-family: sans-serif;
+        }.flex-container2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    </style>
+    
+
+    <br></br>
+    <div class="flex-container2">
+        <a href="file:///C:/Users/User/OneDrive/Рабочий%20стол/apple.html">
+            <img onmouseover="bigger1()" onmouseout="smaller1()" class="apple" style="height: 150px; border-radius: 10px;" src="https://pbs.twimg.com/media/CN1RLWiWsAA9fbm?format=jpg&name=medium" alt="ERROR">
+        </a>
+        <a href="file:///C:/Users/User/OneDrive/Рабочий%20стол/samsung.html">
+            <img onmouseover="bigger2()" onmouseout="smaller2()" class="samsung" style="height: 200px; border-radius: 10px;" src="https://sv1.picz.in.th/images/2019/06/15/1cj1OE.jpg" alt="ERROR">
+        </a>
+        <a href="file:///C:/Users/User/OneDrive/Рабочий%20стол/LG.html">
+            <img onmouseover="bigger3()" onmouseout="smaller3()" class="lg" style="height: 200px; border-radius: 10px;" src="https://cdn01.zoomit.ir/2020/9/lg-logo-red-black.jpg" alt="ERROR">
+        </a>
+        <a href="file:///C:/Users/User/OneDrive/Рабочий%20стол/Xiaomi.html">
+        <img onmouseover="bigger4()" onmouseout="smaller4()" class="xiaomi" style="height: 200px; border-radius: 10px;" src="https://i2.wp.com/www.berakal.com/wp-content/uploads/2018/11/Fastboot-Xiaomi.jpg" alt="ERROR">
+        </a>
+        <a href="file:///C:/Users/User/OneDrive/Рабочий%20стол/huawei.html">
+            <img onmouseover="bigger6()" onmouseout="smaller6()" class="huawei" style="height: 150px; border-radius: 10px;" src="https://smart-test.pl/images/aktualnosci/szklo/Huawei-Logo.jpg" alt="ERROR">
+            </a>
+        <a href="file:///C:/Users/User/OneDrive/Рабочий%20стол/login.html">
+        <img onmouseover="bigger5()" onmouseout="smaller5()" class="signup" style="height: 150px; border-radius: 10px;" src="https://www.nicepng.com/png/detail/64-641659_an-error-occurred-sign-up-logo-png.png" alt="ERROR">
+        </a>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        function bigger1(){
+            $(".apple").animate({height: "200px"}, 300);
+        }function smaller1(){
+            $(".apple").animate({height: "150px"}, 300);
+        }
+        function bigger2(){
+            $(".samsung").animate({height: "250px"}, 300);
+        }function smaller2(){
+            $(".samsung").animate({height: "200px"}, 300);
+        }
+        function bigger3(){
+            $(".lg").animate({height: "250px"}, 300);
+        }function smaller3(){
+            $(".lg").animate({height: "200px"}, 300);
+        }
+        function bigger4(){
+            $(".xiaomi").animate({height: "250px"}, 300);
+        }function smaller4(){
+            $(".xiaomi").animate({height: "200px"}, 300);
+        }
+        function bigger5(){
+            $(".signup").animate({height: "200px"}, 300);
+        }function smaller5(){
+            $(".signup").animate({height: "150px"}, 300);
+        }
+        function bigger6(){
+            $(".huawei").animate({height: "200px"}, 300);
+        }function smaller6(){
+            $(".huawei").animate({height: "150px"}, 300);
+        }
+        
+        
+    </script>
+</body>
+</html>
